@@ -3,14 +3,15 @@ Digital marketing Agency
 
 ## About this web Application
 
-- Horiseon Digital marketing webpage displays informaton about concepts in Digital marketing and related fields. 
-![alt snapshot of the web page](page preview.png)
+- Horiseon Digital marketing webpage displays informaton about concepts in Digital marketing and related fields.
+
+![alt snapshot of the web page](images/page-preview.png)
 
 - It is hosted by github pages in the master branch
 
 
 ## Getting Started
-Click this link to access the official website: [Horiseon Digital marketing]()
+Click this link to access the official website: [Horiseon Digital marketing](https://stefan-aikins.github.io/Horiseon-online/)
 
 ## Usage
 
