@@ -5,6 +5,8 @@ Digital marketing Agency
 
 - Horiseon Digital marketing webpage displays informaton about concepts in Digital marketing and related fields.
 
+- Preview of the webpage
+
 ![alt snapshot of the web page](images/page-preview.png)
 
 - It is hosted by github pages in the master branch
