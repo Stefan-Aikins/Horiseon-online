@@ -1,0 +1,155 @@
+/* overight default padding and margin no styling and then include the padding and margin in maximum width and height */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*backround color for the entire webpage*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* font styling and spacing to be inherited by elements inside the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* specifying layout and font size to the heading level 1*/ 
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*setting a color for 3 alphabets in the heading level 1 element */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*spacing, positioning, and font styling for the navigation links*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*styling set of navigation list items*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*spacing and layout between items in the navigation list*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*setting color for links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*paragraph font size*/
+p {
+    font-size: 16px;
+}
+
+/*dimension, bottom spacing, source and positioning of background image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*dimension, layout and left spacing between the main web contemt and surrounding elements*/
+.main-container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*position image on the left-hand side of the heading level 2 and paragraph*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* left spacing and positioning image on the right-hand side of the heading level 2 and paragraph*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*spacing, color, dimension and font-type within and around the section elements*/
+.section-container {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*maximum of the section images*/
+.section-container-image {
+    max-height: 200px;
+}
+
+/*font size and bottom spacing between the level 2 heading, paragraph and image*/
+.second-heading {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*spacing, positioning, dimension, font-type and background color to be inherited by elements within the aside*/
+.aside-container {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*bottom spacing and font color to be inherited by elements in the aside*/
+.benefit-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*bottom spacing and horizontal alignment pf the heading level 3*/
+.third-heading {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*set image layout to fill entire width up to the maximum-width specified*/
+.benefit-content-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*spacing around the content, font-type, aligning content in the centre and filling the entire width of the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*setting the font size of the level 4 heading*/
+.footer h4 {
+    font-size: 20px;
+}
